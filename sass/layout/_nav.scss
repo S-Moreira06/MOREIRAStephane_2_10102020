@@ -1,0 +1,25 @@
+nav {
+    margin-top: 2rem;
+    display: grid;
+    grid-template: auto auto / auto auto;
+    grid-template-areas: 
+        "logo signup"
+        "nav nav";
+        border-bottom: 2px solid $color-secondary;
+    img {
+        grid-area: logo;
+        width: 50%;
+    }
+    ul {
+        grid-area: nav;
+        display: flex;
+        justify-content: space-around;
+    }
+    .signup {
+        grid-area: signup;
+        color: $color-primary;
+        font-weight: 800;
+        background: none;
+        border: none;
+    }
+}

@@ -62,4 +62,28 @@ i {
   color: #0065fc;
 }
 
+nav {
+  margin-top: 2rem;
+  display: grid;
+  grid-template: auto auto/auto auto;
+  grid-template-areas: "logo signup" "nav nav";
+  border-bottom: 2px solid #f2f2f2;
+}
+nav img {
+  grid-area: logo;
+  width: 50%;
+}
+nav ul {
+  grid-area: nav;
+  display: flex;
+  justify-content: space-around;
+}
+nav .signup {
+  grid-area: signup;
+  color: #0065fc;
+  font-weight: 800;
+  background: none;
+  border: none;
+}
+
 /*# sourceMappingURL=style.css.map */
