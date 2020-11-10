@@ -35,4 +35,9 @@ img {
 input,button,textarea,select {
     font: inherit;
 }
+// Remove link style
+a {
+    text-decoration: none;
+    color: inherit;
+}
 /* end reset */

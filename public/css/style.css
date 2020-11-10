@@ -37,6 +37,29 @@ input, button, textarea, select {
   font: inherit;
 }
 
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
 /* end reset */
+@font-face {
+  font-family: "raleway";
+  src: url("font/raleway-webfont.eot");
+  src: url("font/raleway-webfont.eot?#iefix") format("embedded-opentype"), url("font/raleway-webfont.woff2") format("woff2"), url("font/Raleway.ttf") format("truetype"), url("font/raleway-webfont.woff") format("woff"), url("font/raleway-webfont.svg#ralewaythin") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+:root {
+  font-size: 10px;
+}
+
+body {
+  font-family: "raleway", sans-serif;
+}
+
+i {
+  color: #0065fc;
+}
 
 /*# sourceMappingURL=style.css.map */
