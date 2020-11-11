@@ -9,3 +9,9 @@ body {
 i {
     color: $color-primary;
 }
+
+@include desktop-breakpoint {
+    :root {
+        font-size: 16px;
+    }
+}
