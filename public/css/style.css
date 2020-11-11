@@ -119,7 +119,7 @@ nav .signup {
   background-color: #0065fc;
   border: none;
   border-radius: 1rem;
-  padding: 1.2rem;
+  padding: 1.1rem;
   margin-left: -1.7rem;
 }
 .form__search--mobile-button i {
@@ -132,7 +132,7 @@ nav .signup {
   color: black;
 }
 .form__search input[type=search] {
-  border: 1px #f2f2f2 solid;
+  border: 0.5px #f2f2f2 solid;
   border-width: 0.2rem 0;
   padding-left: 2rem;
   font-weight: 700;
