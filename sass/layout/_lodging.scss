@@ -1,3 +1,19 @@
 .lodging {
     grid-area: lodging;
+    margin-top: 2rem;
+    display: grid;
+    grid-row-gap: 1rem;
+    a {
+        img {
+            border-radius: $radius-secondary $radius-secondary 0 0;
+            height: 11rem;
+            width: 100%;
+        }
+        h3 {
+            font-size: 1.5rem;
+        }
+        p {
+            font-size: 1.3rem;
+        }
+    }
 }

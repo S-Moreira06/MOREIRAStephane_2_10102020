@@ -205,6 +205,20 @@ main .star-off {
 
 .lodging {
   grid-area: lodging;
+  margin-top: 2rem;
+  display: grid;
+  grid-row-gap: 1rem;
+}
+.lodging a img {
+  border-radius: 1.5rem 1.5rem 0 0;
+  height: 11rem;
+  width: 100%;
+}
+.lodging a h3 {
+  font-size: 1.5rem;
+}
+.lodging a p {
+  font-size: 1.3rem;
 }
 
 aside {
