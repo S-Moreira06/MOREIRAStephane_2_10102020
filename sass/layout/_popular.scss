@@ -1,0 +1,42 @@
+aside {
+    grid-area: popular;
+    padding: 3rem $mobile-margin 2.5rem $mobile-margin;
+    margin-top: 1rem;
+    background-color: $color-secondary;
+    display: grid;
+    grid-template: auto repeat(3, 1fr) / 1fr;
+    grid-row-gap: 1rem;
+    h2 {
+        display: flex;
+        justify-content: space-between;
+        margin-bottom: 1rem;
+    }
+    a {
+        display: grid;
+        grid-template: 1fr auto / 7fr 10fr;
+        grid-template-areas:
+            "img txt"
+            "img score";
+        grid-column-gap: 2rem;
+        img {
+            grid-area: img;
+            height: 11.5rem;
+            width: 100%;
+            border-radius: $radius-secondary 0 0 $radius-secondary;
+        }
+        .aside--text {
+            grid-area: txt;
+            h3 {
+                font-size: 1.33rem;
+                padding: 1rem 1rem 1rem 0;
+            }
+            p {
+                font-size: 1.17rem;
+            }
+        }
+        .aside--score {
+            grid-area: score;
+            padding-bottom: 1rem;
+        }
+    }
+}
