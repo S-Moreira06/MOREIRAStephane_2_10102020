@@ -74,7 +74,7 @@ nav {
 nav img {
   grid-area: logo;
   width: 45%;
-  margin-left: 1.6rem;
+  margin-left: 1.7rem;
 }
 nav ul {
   grid-area: nav;
@@ -97,7 +97,7 @@ nav .signup {
 }
 
 .form {
-  margin: 2.55rem 1.6rem;
+  margin: 2.55rem 1.7rem;
 }
 .form h1 {
   font-size: 1.85rem;
@@ -205,7 +205,7 @@ main .star-off {
 
 .lodging {
   grid-area: lodging;
-  margin: 3rem 1.6rem 0 1.6rem;
+  margin: 3rem 1.7rem 0 1.7rem;
   display: grid;
   grid-row-gap: 1rem;
 }
@@ -236,7 +236,7 @@ main .star-off {
 
 aside {
   grid-area: popular;
-  padding: 3rem 1.6rem 2.5rem 1.6rem;
+  padding: 3rem 1.7rem 2.5rem 1.7rem;
   margin-top: 1rem;
   background-color: #f2f2f2;
   display: grid;
@@ -276,7 +276,7 @@ aside a .aside--score {
 }
 
 .activity {
-  margin: 5rem 1.6rem 0 1.6rem;
+  margin: 5rem 1.7rem 0 1.7rem;
   display: grid;
   grid-template-areas: "title" "a" "b" "e" "c" "d" "f";
   grid-row-gap: 2rem;
@@ -316,6 +316,23 @@ aside a .aside--score {
 .activity a h3 {
   font-size: 1.35rem;
   padding: 1.5rem;
+}
+
+footer {
+  background-color: #f2f2f2;
+  margin-top: 4rem;
+  padding: 4rem 2.5rem;
+}
+footer h4 {
+  font-size: 1.5rem;
+  margin-bottom: 1.5rem;
+}
+footer ul {
+  margin-bottom: 3rem;
+}
+footer ul li {
+  font-size: 1.3rem;
+  line-height: 2.5rem;
 }
 
 /*# sourceMappingURL=style.css.map */
