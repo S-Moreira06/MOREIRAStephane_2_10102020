@@ -74,7 +74,7 @@ nav {
 nav img {
   grid-area: logo;
   width: 45%;
-  margin-left: 1.5rem;
+  margin-left: 1.6rem;
 }
 nav ul {
   grid-area: nav;
@@ -96,8 +96,21 @@ nav .signup {
   margin-top: 0.8rem;
 }
 
+.form {
+  margin: 2.55rem 1.6rem;
+}
+.form h1 {
+  font-size: 1.85rem;
+  line-height: 2.3rem;
+}
+.form__description {
+  font-size: 1.36rem;
+  margin-top: 1rem;
+}
 .form__search {
   display: flex;
+  margin-top: 3rem;
+  font-size: 170%;
 }
 .form__search--desktop-button {
   display: none;
@@ -106,8 +119,8 @@ nav .signup {
   background-color: #0065fc;
   border: none;
   border-radius: 1rem;
-  padding: 1rem;
-  margin-left: -1rem;
+  padding: 1.2rem;
+  margin-left: -1.7rem;
 }
 .form__search--mobile-button i {
   color: white;
@@ -115,7 +128,7 @@ nav .signup {
 .form__search i[class="fas fa-map-marker-alt"] {
   background-color: #f2f2f2;
   border-radius: 1rem 0 0 1rem;
-  padding: 1rem 1.2rem;
+  padding: 1.1rem 1.5rem;
   color: black;
 }
 .form__search input[type=search] {
@@ -126,37 +139,43 @@ nav .signup {
 }
 .form__filter {
   font-weight: 700;
+  margin-top: 2.6rem;
+}
+.form__filter p {
+  font-size: 1.5rem;
+  margin-bottom: 1rem;
 }
 .form__filter button {
   border: 1px #f2f2f2 solid;
   background-color: white;
   border-width: 0.2rem;
-  border-radius: 2rem;
+  border-radius: 2.5rem;
   font-weight: 700;
+  font-size: 1.4rem;
   margin: 0.5rem 0.5rem 0.5rem 0.3rem;
-  padding: 0 1.5rem 0 0;
+  padding: 0.5rem 1.2rem;
 }
 .form__filter button i {
   background-color: #deebff;
   border-radius: 50%;
-  padding: 1rem;
-  margin: -0.2rem 0.5rem -0.2rem -0.5rem;
+  padding: 1.5rem;
+  margin: -0.8rem 0.5rem -0.8rem -1.5rem;
 }
 .form__filter button i[class="fas fa-child"] {
-  padding: 1rem 1.1rem;
+  padding: 1.5rem 1.6rem;
 }
 .form__filter button i[class="fas fa-money-bill-wave-alt"] {
-  padding: 1rem 0.9rem;
+  padding: 1.5rem 1.3rem;
 }
 .form__info {
-  margin: 1.5em 0;
+  margin: 2.5rem 0 0 0;
+  font-size: 1.35rem;
 }
 .form__info i {
   float: left;
   border: 1px solid #f2f2f2;
   border-radius: 50%;
-  margin-top: -0.4rem;
-  margin-right: 1rem;
+  margin: -0.3rem 1.5rem 1rem 0;
   padding: 0.2rem 0.5rem;
 }
 
