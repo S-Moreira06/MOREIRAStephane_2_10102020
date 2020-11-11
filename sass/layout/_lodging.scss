@@ -1,19 +1,32 @@
 .lodging {
     grid-area: lodging;
-    margin-top: 2rem;
+    margin: 3rem $mobile-margin 0 $mobile-margin;
     display: grid;
     grid-row-gap: 1rem;
+    h2 {
+        margin-bottom: 0.5rem;
+    }
     a {
         img {
             border-radius: $radius-secondary $radius-secondary 0 0;
-            height: 11rem;
+            height: 9.8rem;
             width: 100%;
         }
         h3 {
-            font-size: 1.5rem;
+            font-size: 1.35rem;
+            margin: 1rem 0 0 1rem;
         }
         p {
-            font-size: 1.3rem;
+            font-size: 1.2rem;
+            margin-left: 1rem;
         }
+        .first-star  {
+            margin: 0.5rem 0 0.5rem 1rem;
+        }
+    }
+    &__show {
+        font-weight: 700;
+        font-size: 1.5rem;
+        margin-top: 2.5rem;
     }
 }
