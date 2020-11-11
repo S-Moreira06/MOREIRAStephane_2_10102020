@@ -64,4 +64,24 @@
 
         
     }
+    @include desktop-breakpoint{
+        margin: 4.5rem $margin-desktop 0 $margin-desktop;
+        grid-template: auto 14.5rem 4.5rem 4.5rem 14.5rem/ repeat(4, 1fr);
+        grid-template-areas: 
+            "title . . ."
+            "a b c d"
+            "a b c ."
+            "a . c f"
+            "a e c f";
+        grid-column-gap: 3.5rem;
+        .activity__article--1 img {height: 88%;}
+        .activity__article--2 img {height: 75%;}
+        .activity__article--3 img {height: 88%;}
+        .activity__article--6 img {height: 75%;}
+        a h3 {
+            padding: 1.5rem 0 1.5rem 1.5rem;
+        }
+
+
+    }
 }

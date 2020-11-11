@@ -539,6 +539,29 @@ aside a .aside--score {
     padding: 1rem 1.5rem;
   }
 }
+@media screen and (min-width: 769px) {
+  .activity {
+    margin: 4.5rem 4.5rem 0 4.5rem;
+    grid-template: auto 14.5rem 4.5rem 4.5rem 14.5rem/repeat(4, 1fr);
+    grid-template-areas: "title . . ." "a b c d" "a b c ." "a . c f" "a e c f";
+    grid-column-gap: 3.5rem;
+  }
+  .activity .activity__article--1 img {
+    height: 88%;
+  }
+  .activity .activity__article--2 img {
+    height: 75%;
+  }
+  .activity .activity__article--3 img {
+    height: 88%;
+  }
+  .activity .activity__article--6 img {
+    height: 75%;
+  }
+  .activity a h3 {
+    padding: 1.5rem 0 1.5rem 1.5rem;
+  }
+}
 
 footer {
   background-color: #f2f2f2;
