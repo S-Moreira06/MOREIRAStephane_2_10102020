@@ -304,6 +304,9 @@ main .star-off {
     grid-column-gap: 3rem;
     margin: 3rem 4.5rem 0 4.5rem;
   }
+  main h2 {
+    font-size: 1.8rem;
+  }
 }
 
 .lodging {
@@ -366,6 +369,18 @@ main .star-off {
   .lodging {
     margin: 0;
     background-color: #f2f2f2;
+    border-radius: 2rem;
+    padding: 3rem;
+    grid-template: auto 1fr 1fr auto/repeat(3, 1fr);
+    grid-template-areas: "title title title" "a b c" "d e f" "show . .";
+    grid-column-gap: 3rem;
+    grid-row-gap: 2rem;
+  }
+  .lodging h2 {
+    margin: 0.6rem 0 0 0.5rem;
+  }
+  .lodging__show {
+    margin: 1rem 0 0 0.5rem;
   }
 }
 
