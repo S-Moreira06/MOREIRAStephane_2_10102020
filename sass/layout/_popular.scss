@@ -39,4 +39,18 @@ aside {
             padding-bottom: 1rem;
         }
     }
+    @include tablet-breakpoint {
+        a {
+            grid-template: 1fr / 7fr 5fr 5fr;
+            grid-template-areas: 
+                "img txt score";
+        }
+        .aside--score {
+            justify-self: center;
+            align-self: center;
+        }
+        .aside--text {
+            align-self: center;
+        }
+    }
 }
