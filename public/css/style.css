@@ -378,6 +378,38 @@ aside a .aside--score {
   font-size: 1.35rem;
   padding: 1.5rem;
 }
+@media screen and (min-width: 426px) {
+  .activity {
+    grid-template: auto 12rem 1rem 1rem 12rem 1rem 12rem 1rem 1rem 12rem/1fr 1fr;
+    grid-template-areas: "title ." "a b" "a b" "a ." "a e" ". ." "f c" "f c" ". c" "d c";
+    grid-column-gap: 1rem;
+    grid-row-gap: 0;
+  }
+  .activity .activity__article--1 img {
+    height: 86%;
+  }
+  .activity .activity__article--2 img {
+    height: 74%;
+  }
+  .activity .activity__article--3 img {
+    height: 86%;
+  }
+  .activity .activity__article--4 img {
+    height: 69%;
+  }
+  .activity .activity__article--5 img {
+    height: 69%;
+  }
+  .activity .activity__article--6 img {
+    height: 74%;
+  }
+  .activity h2 {
+    margin-bottom: 2rem;
+  }
+  .activity a h3 {
+    padding: 1rem 1.5rem;
+  }
+}
 
 footer {
   background-color: #f2f2f2;
