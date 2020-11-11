@@ -232,6 +232,7 @@ main .star-off {
   grid-row-gap: 1rem;
 }
 .lodging h2 {
+  grid-area: title;
   margin-bottom: 0.5rem;
 }
 .lodging a img {
@@ -254,6 +255,31 @@ main .star-off {
   font-weight: 700;
   font-size: 1.5rem;
   margin-top: 2.5rem;
+}
+@media screen and (min-width: 426px) {
+  .lodging {
+    grid-template: auto repeat(3, 1fr) auto/1fr 1fr;
+    grid-template-areas: "title title" "a b" "c d" "e f";
+    grid-column-gap: 1rem;
+  }
+  .lodging__article--1 {
+    grid-area: a;
+  }
+  .lodging__article--2 {
+    grid-area: b;
+  }
+  .lodging__article--3 {
+    grid-area: c;
+  }
+  .lodging__article--4 {
+    grid-area: d;
+  }
+  .lodging__article--5 {
+    grid-area: e;
+  }
+  .lodging__article--6 {
+    grid-area: f;
+  }
 }
 
 aside {
