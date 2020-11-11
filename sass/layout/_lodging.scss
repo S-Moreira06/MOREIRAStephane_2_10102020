@@ -2,6 +2,16 @@
     grid-area: lodging;
     margin: 3rem $margin-mobile 0 $margin-mobile;
     display: grid;
+    grid-template: auto repeat(6, 1fr) auto / 1fr;
+    grid-template-areas: 
+        "title"
+        "a"
+        "b"
+        "c"
+        "d"
+        "e"
+        "f"
+        "show";
     grid-row-gap: 1rem;
     h2 {
         grid-area: title;
@@ -26,6 +36,7 @@
         }
     }
     &__show {
+        grid-area: show;
         font-weight: 700;
         font-size: 1.5rem;
         margin-top: 2.5rem;
@@ -36,8 +47,9 @@
             "title title"
             "a b"
             "c d"
-            "e f";
-            grid-column-gap: 1rem;
+            "e f"
+            "show .";
+        grid-column-gap: 1rem;
         &__article--1 {grid-area: a;}
         &__article--2 {grid-area: b;}
         &__article--3 {grid-area: c;}
@@ -66,7 +78,6 @@
                 margin-bottom: 0;
             }
         }
-        
         &__show {
             margin: 1rem 0 1.5rem 0.4rem;
         }
