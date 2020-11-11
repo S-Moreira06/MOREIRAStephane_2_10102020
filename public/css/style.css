@@ -67,16 +67,23 @@ nav {
   display: grid;
   grid-template: auto auto/auto auto;
   grid-template-areas: "logo signup" "nav nav";
+  grid-row-gap: 1.8rem;
   border-bottom: 2px solid #f2f2f2;
+  font-size: 1.4rem;
 }
 nav img {
   grid-area: logo;
-  width: 50%;
+  width: 45%;
+  margin-left: 1.5rem;
 }
 nav ul {
   grid-area: nav;
   display: flex;
   justify-content: space-around;
+  padding-right: 1.5rem;
+}
+nav ul li {
+  font-size: 1.4rem;
 }
 nav .signup {
   grid-area: signup;
@@ -84,6 +91,9 @@ nav .signup {
   font-weight: 800;
   background: none;
   border: none;
+  justify-self: right;
+  margin-right: 1.2rem;
+  margin-top: 0.8rem;
 }
 
 .form__search {
