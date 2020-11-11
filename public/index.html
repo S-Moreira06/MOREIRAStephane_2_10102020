@@ -23,25 +23,27 @@
             </nav>
             
 
-            <form method="post" action="traitement.php" >
+            <form method="post" action="traitement.php" class="form">
             <h1>Trouvez votre hébergement pour des vacances de rêve</h1>
             <p>En plein centre ville ou en pleine nature</p>  
             
             
-                <div class="search"><!--Div pour supprimer les espaces grace au css-->
+                <div class="form__search"><!--Div pour supprimer les espaces grace au css-->
                     <i class="fas fa-map-marker-alt"></i>
                     <label for="localisation"></label>
                     <input type="search" name="localisation" id="localisation" placeholder="Marseille, France" />
-                    <input type="submit" value="Rechercher" class="search__desktop--button" />
-                    <button  type="submit"  class="search__mobile--button"><i class="fas fa-search"></i></button>
+                    <input type="submit" value="Rechercher" class="form__search--desktop-button" />
+                    <button  type="submit"  class="form__search--mobile-button"><i class="fas fa-search"></i></button>
                 </div>
-                    
-                <p class="form__filter">Filtres</p>
-                    
-                <button><i class="fas fa-money-bill-wave-alt"></i> Économique</button>
-                <button><i class="fas fa-child"></i> Familial</button>
-                <button><i class="fas fa-heart"></i> Romantique</button>
-                <button><i class="fas fa-dog"></i> Animaux autorisés</button>
+                
+                <div class="form__filter"> 
+                    <p>Filtres</p>
+                        
+                    <button><i class="fas fa-money-bill-wave-alt"></i> Économique</button>
+                    <button><i class="fas fa-child"></i> Familial</button>
+                    <button><i class="fas fa-heart"></i> Romantique</button>
+                    <button><i class="fas fa-dog"></i> Animaux autorisés</button>
+                </div>
                     
                     
                 <p class="form__info"><i class="fas fa-info"></i> Plus de 500 logements sont disponibles dans cette ville</p>
