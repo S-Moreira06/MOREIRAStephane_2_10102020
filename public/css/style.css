@@ -114,6 +114,12 @@ nav .signup {
 }
 .form__search--desktop-button {
   display: none;
+  background-color: #0065fc;
+  border-radius: 0 1rem 1rem 0;
+  border: none;
+  color: white;
+  font-weight: 600;
+  padding: 0 1rem;
 }
 .form__search--mobile-button {
   background-color: #0065fc;
@@ -177,6 +183,22 @@ nav .signup {
   border-radius: 50%;
   margin: -0.3rem 1.5rem 1rem 0;
   padding: 0.2rem 0.5rem;
+}
+@media screen and (min-width: 426px) {
+  .form__search--mobile-button {
+    display: none;
+  }
+  .form__search--desktop-button {
+    display: block;
+  }
+  .form__filter {
+    display: flex;
+  }
+  .form__filter p {
+    margin-bottom: 0;
+    align-self: center;
+    margin-right: 1em;
+  }
 }
 
 main {
