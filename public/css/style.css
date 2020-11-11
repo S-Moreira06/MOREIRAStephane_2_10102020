@@ -586,5 +586,11 @@ footer ul li {
     grid-column-gap: 10rem;
   }
 }
+@media screen and (min-width: 769px) {
+  footer {
+    padding: 3rem 4.5rem;
+    grid-column-gap: 0;
+  }
+}
 
 /*# sourceMappingURL=style.css.map */

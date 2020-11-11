@@ -18,4 +18,8 @@ footer {
         grid-template-columns: repeat(3, 1fr);
         grid-column-gap: 10rem;
     }
+    @include desktop-breakpoint {
+        padding:  3rem $margin-desktop;
+        grid-column-gap: 0;
+    }
 }
