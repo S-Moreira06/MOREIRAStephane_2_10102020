@@ -275,4 +275,47 @@ aside a .aside--score {
   padding-bottom: 1rem;
 }
 
+.activity {
+  margin: 2rem 1.6rem 0 1.6rem;
+  display: grid;
+  grid-template-areas: "title" "a" "b" "e" "c" "d" "f";
+  grid-row-gap: 1rem;
+}
+.activity__article--1 {
+  grid-area: a;
+}
+.activity__article--2 {
+  grid-area: b;
+}
+.activity__article--3 {
+  grid-area: c;
+}
+.activity__article--4 {
+  grid-area: d;
+}
+.activity__article--5 {
+  grid-area: e;
+}
+.activity__article--6 {
+  grid-area: f;
+}
+.activity h2 {
+  grid-area: title;
+  font-size: 1.85rem;
+}
+.activity a {
+  box-shadow: 0px 5px 10px #E5E6E7;
+  border-radius: 2rem;
+}
+.activity a img {
+  object-fit: cover;
+  width: 100%;
+  height: 10rem;
+  border-radius: 2rem 2rem 0 0;
+}
+.activity a h3 {
+  font-size: 1.3rem;
+  padding: 1rem;
+}
+
 /*# sourceMappingURL=style.css.map */
