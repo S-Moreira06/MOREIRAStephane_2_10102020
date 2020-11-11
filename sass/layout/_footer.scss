@@ -13,4 +13,9 @@ footer {
         line-height: 2.5rem;
         }
     }
+    @include tablet-breakpoint {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        grid-column-gap: 10rem;
+    }
 }

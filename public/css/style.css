@@ -427,5 +427,12 @@ footer ul li {
   font-size: 1.3rem;
   line-height: 2.5rem;
 }
+@media screen and (min-width: 426px) {
+  footer {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-column-gap: 10rem;
+  }
+}
 
 /*# sourceMappingURL=style.css.map */
