@@ -22,5 +22,12 @@ main {
     .star-off {
         color: $color-secondary;
     }
+    @include desktop-breakpoint {
+        grid-template: 1fr / 66% 32% ;
+        grid-template-areas: 
+            "lodging popular";
+        grid-column-gap: 3rem;
+        margin: 3rem $margin-desktop 0 $margin-desktop;
+    }
 }
 

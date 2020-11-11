@@ -45,4 +45,8 @@
         &__article--5 {grid-area: e;}
         &__article--6 {grid-area: f;}
     }
+    @include desktop-breakpoint {
+        margin: 0;
+        background-color: $color-secondary;
+    }
 }

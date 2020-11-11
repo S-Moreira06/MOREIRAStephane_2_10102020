@@ -53,4 +53,8 @@ aside {
             align-self: center;
         }
     }
+    @include desktop-breakpoint {
+        margin: 0;
+        padding: 0;
+    }
 }

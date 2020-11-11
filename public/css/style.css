@@ -297,6 +297,14 @@ main .price {
 main .star-off {
   color: #f2f2f2;
 }
+@media screen and (min-width: 769px) {
+  main {
+    grid-template: 1fr/66% 32%;
+    grid-template-areas: "lodging popular";
+    grid-column-gap: 3rem;
+    margin: 3rem 4.5rem 0 4.5rem;
+  }
+}
 
 .lodging {
   grid-area: lodging;
@@ -354,6 +362,12 @@ main .star-off {
     grid-area: f;
   }
 }
+@media screen and (min-width: 769px) {
+  .lodging {
+    margin: 0;
+    background-color: #f2f2f2;
+  }
+}
 
 aside {
   grid-area: popular;
@@ -406,6 +420,12 @@ aside a .aside--score {
   }
   aside .aside--text {
     align-self: center;
+  }
+}
+@media screen and (min-width: 769px) {
+  aside {
+    margin: 0;
+    padding: 0;
   }
 }
 
