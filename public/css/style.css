@@ -108,7 +108,8 @@ nav .signup {
     border: none;
   }
   nav img {
-    width: 10%;
+    width: 8rem;
+    min-width: 8rem;
     margin: 3.5rem 0 0 0;
   }
   nav ul {
@@ -125,7 +126,7 @@ nav .signup {
   nav .signup {
     border-top: 3px white solid;
     margin: 0rem 0 0 0;
-    padding: 2.4rem 2rem 0 2.5rem;
+    padding: 2.2rem 2rem 0 2.5rem;
   }
   nav .signup:hover {
     border-top: 3px #0065fc solid;
