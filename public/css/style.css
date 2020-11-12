@@ -228,13 +228,11 @@ nav .signup {
   .form__search--desktop-button {
     display: block;
   }
-  .form__filter {
-    display: flex;
-  }
   .form__filter p {
-    margin-bottom: 0;
-    align-self: center;
+    float: left;
+    margin-bottom: 4rem;
     margin-right: 1em;
+    padding-top: 1.4rem;
   }
 }
 @media screen and (min-width: 769px) {
@@ -256,14 +254,14 @@ nav .signup {
     padding-left: 1.4rem;
   }
   .form__filter {
-    margin-top: 2.6rem;
+    margin-top: 2.4rem;
   }
   .form__filter p {
     margin-left: 0.5rem;
   }
   .form__filter button {
     font-size: 1.5rem;
-    margin: 0 1rem 0 1rem;
+    margin: 0 1rem 0.5rem 1rem;
     padding: 0.6rem 1.7rem 0.6rem 1.3rem;
   }
   .form__filter button:hover {
@@ -275,7 +273,7 @@ nav .signup {
   }
   .form__info {
     font-size: 1.32rem;
-    margin-top: 3rem;
+    margin-top: 2.4rem;
   }
   .form__info i {
     margin: -0.4rem 1rem 0 0.5rem;

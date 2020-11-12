@@ -95,11 +95,11 @@
             }
         }
         &__filter {
-            display: flex;
             p {
-                margin-bottom: 0;
-                align-self: center;
+                float: left;
+                margin-bottom: 4rem;
                 margin-right: 1em;
+                padding-top: 1.4rem;
             }
         }
     }
@@ -120,13 +120,13 @@
             }
         }
         &__filter {
-            margin-top: 2.6rem;
+            margin-top: 2.4rem;
             p {
                 margin-left: 0.5rem;
             }
             button {
                 font-size: 1.5rem;
-                margin: 0 1rem 0 1rem;
+                margin: 0 1rem 0.5rem 1rem;
                 padding: 0.6rem 1.7rem 0.6rem 1.3rem;
                 &:hover {
                     background-color: $color-primary;
@@ -139,7 +139,7 @@
         }
         &__info {
             font-size: 1.32rem;
-            margin-top: 3rem;
+            margin-top: 2.4rem;
             i {
                 margin: -0.4rem 1rem 0 0.5rem;
             }
