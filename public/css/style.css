@@ -196,7 +196,7 @@ nav .signup {
   font-weight: 700;
   font-size: 1.4rem;
   margin: 0.5rem 0.5rem 0.5rem 0.3rem;
-  padding: 0.5rem 1.2rem;
+  padding: 0.6rem 1.2rem;
 }
 .form__filter button i {
   background-color: #deebff;
@@ -211,15 +211,29 @@ nav .signup {
   padding: 1.5rem 1.3rem;
 }
 .form__info {
-  margin-top: 2.5rem;
+  margin-top: 2.4rem;
   font-size: 1.35rem;
+  /*&::before {
+      font-family: "Font Awesome 5 Free";
+      content: "\f129";
+      font-size: 1rem;
+      font-weight: 900;
+      border: 1px solid $color-secondary;
+      border-radius: 50%;
+      padding: 0.3rem 0.6rem;
+      display: inline-block;
+      margin: -0.3rem 1rem 0rem 0;
+      color: $color-primary;
+
+  }*/
 }
 .form__info i {
+  font-size: 1rem;
   float: left;
-  border: 2px solid #f2f2f2;
+  border: 1px solid #f2f2f2;
   border-radius: 50%;
-  margin: -0.3rem 1.5rem 1rem 0;
-  padding: 0.3rem 0.6rem;
+  margin: -0.2rem 1rem 1rem 0;
+  padding: 0.4rem 0.7rem;
 }
 @media screen and (min-width: 426px) {
   .form__search--mobile-button {
@@ -276,7 +290,7 @@ nav .signup {
     margin-top: 2.4rem;
   }
   .form__info i {
-    margin: -0.4rem 1rem 0 0.5rem;
+    margin: -0.2rem 1rem 0 0.5rem;
   }
 }
 
