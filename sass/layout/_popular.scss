@@ -10,6 +10,9 @@ aside {
         display: flex;
         justify-content: space-between;
         margin-bottom: 1rem;
+        i {
+            color: black;
+        }
     }
     a {
         display: grid;
@@ -20,7 +23,8 @@ aside {
         grid-column-gap: 2rem;
         img {
             grid-area: img;
-            height: 11.5rem;
+            min-height: 11.5rem;
+            height: 100%;
             width: 100%;
             border-radius: $radius-secondary 0 0 $radius-secondary;
         }
@@ -44,6 +48,9 @@ aside {
             grid-template: 1fr / 7fr 5fr 5fr;
             grid-template-areas: 
                 "img txt score";
+            img {
+                height: 10rem;
+            }
         }
         .aside--score {
             justify-self: center;
@@ -66,6 +73,9 @@ aside {
             grid-template-areas: 
                 "img txt"
                 "img score";
+            img {
+                height: 100%;
+            }
             .aside--text {
                 align-self: start;
                 h3 {
