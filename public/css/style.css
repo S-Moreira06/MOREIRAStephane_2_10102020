@@ -473,11 +473,12 @@ aside a .aside--score {
     margin: 0.6rem 0 0 0;
   }
   aside a {
-    grid-template: 1fr auto/7fr 10fr;
+    grid-template: auto auto/7fr 10fr;
     grid-template-areas: "img txt" "img score";
   }
   aside a img {
     height: 100%;
+    max-height: 200px;
   }
   aside a .aside--text {
     align-self: start;
